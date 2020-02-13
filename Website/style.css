@@ -1,0 +1,39 @@
+header {
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sample.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+}
+
+.nav h1 {
+    float: left;
+}
+
+.nav ul{
+    float: right;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 25px;
+    display: inline-block;
+    color: white;
+}
+
+article{
+    padding: 20px;
+    color: white;
+    background-color: #08121C;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
