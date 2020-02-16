@@ -1,3 +1,7 @@
+html {
+    font-family: 'Lato';
+}
+
 header {
     color: white;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sample.jpg);
@@ -11,7 +15,8 @@ header {
     display: flex;
 }
 
-.nav h1 {
+.nav h2 {
+    margin-left: 120px;
     float: left;
 }
 
@@ -32,8 +37,34 @@ article{
     background-color: #08121C;
 }
 
+.section-2 h4 {
+    color: #00F7FF;
+}
+
+.feature-nav button {
+    margin-top: 57px;
+    font-size: 28px;
+    width: 200px;        
+    border-width: 0;
+    border-radius: 50px;
+    background-color: #FFF;
+}
+
+.feature {
+    margin-top: 137px;
+}
+
+.mockup {
+    height: 714px;
+    width: 952px;
+}
+
 footer {
     padding: 10px;
     background-color: black;
     color: white;
+}
+
+.footer-left {
+    margin-left: 100px;
 }
