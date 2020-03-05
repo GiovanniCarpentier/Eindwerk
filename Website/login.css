@@ -1,0 +1,26 @@
+article {
+    height: 100%;
+}
+
+.left h1 {
+    margin-top: 50%;
+}
+
+.left {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sample.jpg);
+    height: 100%;
+}
+
+.login-form {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 45%;
+}
+
+input{
+    background-color:#08121C;
+    border: none;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    width: 60%;
+}
